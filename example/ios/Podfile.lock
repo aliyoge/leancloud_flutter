@@ -1,0 +1,41 @@
+PODS:
+  - AVOSCloud (11.4.4)
+  - AVOSCloudIM (11.4.4):
+    - AVOSCloud (= 11.4.4)
+    - AVOSCloudIM/_ARC (= 11.4.4)
+    - AVOSCloudIM/_NOARC (= 11.4.4)
+  - AVOSCloudIM/_ARC (11.4.4):
+    - AVOSCloud (= 11.4.4)
+    - AVOSCloudIM/_NOARC (= 11.4.4)
+  - AVOSCloudIM/_NOARC (11.4.4):
+    - AVOSCloud (= 11.4.4)
+  - Flutter (1.0.0)
+  - leancloud_flutter (0.0.1):
+    - AVOSCloud
+    - AVOSCloudIM
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - leancloud_flutter (from `.symlinks/plugins/leancloud_flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AVOSCloud
+    - AVOSCloudIM
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  leancloud_flutter:
+    :path: ".symlinks/plugins/leancloud_flutter/ios"
+
+SPEC CHECKSUMS:
+  AVOSCloud: c3d6ce6d387d7e40c7c0fe4087c6ad5192620f47
+  AVOSCloudIM: e3227ad97ee9d0f8ec059b0a17d8dc9c2ec0ba49
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  leancloud_flutter: 772aec77ab0bb4f54eb96e1b74ad4e47d1870725
+
+PODFILE CHECKSUM: 1e5af4103afd21ca5ead147d7b81d06f494f51a2
+
+COCOAPODS: 1.5.3
